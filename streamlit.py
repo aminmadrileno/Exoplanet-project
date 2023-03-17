@@ -12,18 +12,25 @@ import base64
 import io
 
 
-st.title('NASA EXOPLANETS - WHERE ARE THEY? ')
 
-st.header('siurghfaier')
-st.subheader('sfgs')
-st.markdown('## sfgisdzf')
-st.write('**texto normal**')
+st.header('EXOPLANETAS - DONDE ESTAN TODOS 👽?')
+st.write('\n')
 
-nasadata = pd.read_csv('REALdata.csv')
 
-st.dataframe(nasadata)
+#st.write('Tenemos 5309 planetas descubiertos. Sabemos de uno, que obtiene vida. ya esta?')
 
-st.sidebar.header('header')
-st.sidebar.subheader('subheader')
-st.sidebar.markdown('## markdown')
-st.sidebar.write('**texto normal**')
+milkyway = Image.open('Screenshot 2023-03-16 at 20.45.08.png')
+st.image(milkyway, caption='Milky Way')
+
+st.subheader('QUE HACE EL MACHINE LEARNING EN ESTE CASO? ')
+
+
+# insert image
+ml = Image.open('Screenshot 2023-03-17 at 02.23.28.png')
+st.image(ml, caption='ml explained')
+
+image = Image.open('Screenshot 2023-03-16 at 22.42.38.png')
+st.image(image, caption='Exoplanetas')
+
+
+
